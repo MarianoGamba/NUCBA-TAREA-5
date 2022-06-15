@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@0,300;0,500;1,300;1,500&display=swap");
+
+:root{
+  --red-bg: #a52a2a;
+  --red-bghover:#741818;
+  --salmon-bg:#fa8072;
+  --font-1: "Roboto", sans-serif;
+  --font-2:"Poppins", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--font-2);
+}
+
+/* header inicio */
+
+header{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 5px 0 10px rgb(0 0 6); */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding-right: 15px;
+    gap: 25px;
+    padding-right: 10px;
+}
+
+
+.logo{
+    height: 100%;
+}
+
+.nav__list{
+    display: flex;
+    gap: 80px;
+    height: auto;
+    width: auto;
+    list-style: none;
+}
+
+.nav__link{
+    color: var(--red-bg);
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+    color: var(--salmon-bg)
+    
+}
+
+
+/* header final */
+
+/* clientes inicio */
+.clients{
+    align-items: center;    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh; 
+}
+
+.img-clients img{
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+/* clientes final */
+
+
+/* footer inicio */
+
+.footer{
+    background-color: aqua;
+    display: flex;
+    gap: 5rem;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div{
+    background-color: rgb(255, 145, 0);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+.follow{
+    background-color: beige;
+    align-items: center;    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.img-follow img{
+   
+    width: auto;
+    height: auto;
+    max-width: 50px;
+    max-height: 50px;
+} 
+
+.mail-list input{
+    width: 240px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 5px;
+
+}
+
+.mail-list button{
+    width: 50px;
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
